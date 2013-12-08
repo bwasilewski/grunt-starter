@@ -1,5 +1,7 @@
 module.exports = function (grunt) {
   
+  // Define our tasks here
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -24,11 +26,14 @@ module.exports = function (grunt) {
     }
   });
 
+  
   // Load the jshint plugin
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  
   // Load the uglify plugin
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Set up our default task
   grunt.registerTask('default', ['jshint', 'uglify']);
+
 };

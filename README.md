@@ -2,6 +2,7 @@
 
 An example template for new creating new projects with Grunt.
 
+Check out the fully tricked-out version here: https://github.com/bwasilewski/grunt-starter.
 
 #### Resources:
 
