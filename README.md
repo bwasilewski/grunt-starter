@@ -2,6 +2,8 @@
 
 An example template for new creating new projects with Grunt.
 
+Check out the slides here: http://benwas.com/grunt
+
 #### Resources:
 
 * Grunt Documentation - http://gruntjs.com/getting-started
