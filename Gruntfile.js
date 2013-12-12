@@ -15,7 +15,9 @@ module.exports = function (grunt) {
           jQuery: true
         }
       },
-      all: ['Gruntfile.js', 'js/scripts.js']
+      build: {
+        src: ['Gruntfile.js', 'js/scripts.js']
+      }
     },
     
     uglify: {
